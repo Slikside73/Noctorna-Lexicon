@@ -1,0 +1,127 @@
+{
+  "id": "noctorna-lexicon",
+  "title": "Noctorna Lexicon",
+  "version": "1.0.0",
+"manifest": "https://github.com/Slikside73/Noctorna-Lexicon/releases/latest/download/module.json",
+"download": "https://github.com/Slikside73/Noctorna-Lexicon/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>All the Homebrew content that can be found in the Homebrew setting of Noctorna</p>",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "pack-1",
+      "label": "Stat-Blocks",
+      "path": "packs/pack-1",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pack-2",
+      "label": "Noctorna Classes",
+      "path": "packs/pack-2",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pack-4",
+      "label": "Noctorna Races",
+      "path": "packs/pack-4",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pack-5",
+      "label": "Noctorna Backgrounds",
+      "path": "packs/pack-5",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pack-6",
+      "label": "Noctorna Weapons",
+      "path": "packs/pack-6",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pack-7",
+      "label": "Noctorna Spells",
+      "path": "packs/pack-7",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pack-8",
+      "label": "Noctorna Feats",
+      "path": "packs/pack-8",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pack-9",
+      "label": "Noctorna Items",
+      "path": "packs/pack-9",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "pack-10",
+      "label": "Noctorna Notes",
+      "path": "packs/pack-10",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "pack-11",
+      "label": "Extra Folder (Items)",
+      "path": "packs/pack-11",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
+}
